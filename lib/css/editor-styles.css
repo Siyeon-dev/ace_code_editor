@@ -85,3 +85,17 @@ body {
 	right: 0;
 	border: 1px solid var(--editor-border);
 }
+
+/* Editor Console Logs */
+.editor__console-logs {
+	padding: 10px;
+	list-style: none;
+}
+
+.editor__console-logsl li pre {
+	font-size: 0.9em;
+}
+
+.ace_gutter {
+	border-left: 5px solid var(--editor-border);
+}
